@@ -1,25 +1,17 @@
 
-prompt(digite pagina 2);
-let produto = prompt('Digite um dos produtos:\n\n laranja, bergamota')
+document.getElementById('listaprodutos').innerHTML = `Laranja R$ 2,00<br> 
 
-let = i;
-while [true]{
+ Batata R$ 4,50<br>
+ 
+ Acucar R$ 2,00<br>
+ 
+ Arroz R$ 2,00<br>
+ 
+ Abacate R$ 2,00'<br>`
 
-    let produto = prompt('Digite um dos produtos:\n\nlaranja bergamota');
-    i++;
-    listaDeProdutos.push(produto);
 
-    produto.quantidade = prompt('Digite a quantidade');
+//while (true)
+/// test = prompt(digite...)
+//if (teste == null)
+// break
 
-    if (produto == null) {
-        break;
-    }
-    listaDeProdutos = []
-}
-//carinho vazio
-if (listaDeProdutos.lenght == 0) {
-}
-
-else {
-
-}
